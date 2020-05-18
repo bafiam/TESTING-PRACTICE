@@ -1,29 +1,27 @@
 const calculator = (() => {
-  const add = (...args) => {
-    return args.reduce((acc, next) => {
-      return (acc = acc + next);
-    });
-  };
+  const add = (...args) => args.reduce((acc, next) => {
+    acc += next;
+    return acc;
+  });
 
-  const subtract = (...args) => {
-    return args.reduce((acc, next) => {
-      return (acc = acc - next);
-    });
-  };
+  const subtract = (...args) => args.reduce((acc, next) => {
+    acc -= next;
+    return acc;
+  });
 
-  const multiply = (...args) => {
-    return args.reduce((acc, next) => {
-      return (acc = acc * next);
-    });
-  };
+  const multiply = (...args) => args.reduce((acc, next) => {
+    acc *= next;
+    return acc;
+  });
 
-  const divide = (...args) => {
-    return args.reduce((acc, next) => {
-      return (acc = acc / next);
-    });
-  };
+  const divide = (...args) => args.reduce((acc, next) => {
+    acc /= next;
+    return acc;
+  });
 
-  return { add, subtract, multiply, divide };
+  return {
+    add, subtract, multiply, divide,
+  };
 })();
 
 export default calculator;

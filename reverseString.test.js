@@ -1,4 +1,4 @@
-import reverseString from './reverseString.js';
+import reverseString from './reverseString';
 
 test('name should be reversed - eman', () => {
   expect(reverseString('name')).toBe('eman');
