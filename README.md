@@ -72,7 +72,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 - Twitter: [@enyinnaclinton ](https://twitter.com/ClintonEnyinna)
 - Github: [@ClintonEnyinna](https://github.com/ClintonEnyinna)
 
-👤 **Stephen Gamba**
+👤 **Stephen Gumba**
 
-- Twitter: [@bafiam_steve ](https://twitter.com/Bafiam_steve)
+- Twitter: [@bafiam_steve](https://twitter.com/Bafiam_steve)
 - Github: [@Bafiam](https://github.com/bafiam)
